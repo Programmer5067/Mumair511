@@ -434,11 +434,16 @@ form{
     width: 100%;
     background-color: #4a414178;
     text-align: center;
-}
-
-.end{
     display: flex;
+    margin: auto;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;  
 }
 
+.end p {
+    width: 30%;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: space-evenly;
+}
